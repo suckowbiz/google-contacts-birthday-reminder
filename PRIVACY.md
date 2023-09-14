@@ -11,13 +11,18 @@ The Google Contacts Birthday Reminder Google Apps Script requires the following 
 
 ## Details
 
+See your primary Google Account email address	https://www.googleapis.com/auth/userinfo.email
+Allow this application to run when you are not present	https://www.googleapis.com/auth/script.scriptapp
+See and download any calendar you can access using your Google Calendar	https://www.googleapis.com/auth/calendar.readonly
+Send email as you	https://www.googleapis.com/auth/script.send_mail
+
 ### userinfo.email
 
-Read your email address to be able to send a reminder about upcoming birthdays to your email address.
+See your primary Google Account email address.
 
 ### script.scriptapp
 
-Adding a trigger to run a time based schedule to check every day for upcoming birthdays.
+Allow this application to run when you are not present.
 
 ### calendar.readonly
 
@@ -25,4 +30,4 @@ Read your contacts calendar to identify upcoming birthdays.
 
 ### script.send_mail
 
-Sending an email in your name to your self to remind you of upcoming birthdays.
+Send email as you to remind you of upcoming birthdays.
